@@ -1,0 +1,13 @@
+.Slider{
+    margin: 1rem 0;
+}
+.box{
+    border: 1.8px solid;
+    height: 5rem;
+    padding: 2rem;
+    margin: 0 1rem;
+    text-align: center;
+}
+.box:hover{
+    cursor: pointer;
+}

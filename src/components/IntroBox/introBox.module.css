@@ -1,0 +1,27 @@
+.box{
+    border: 1px solid;
+    margin-top: 0.8rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+.image{
+    border: 50%;
+}
+.membersince{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+.follow{
+    padding: 0.7rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+    background: linear-gradient(60deg, #E7C68E 0%, #9D7A54 100%);
+}
+.follow:hover{
+    cursor: pointer;
+    color: white;
+}
+.icon{
+    padding: 1.3rem;
+}

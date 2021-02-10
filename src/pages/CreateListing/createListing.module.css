@@ -1,0 +1,75 @@
+.topdiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    padding: 0.5rem 0;
+}
+.oneistofour{
+    background-color: #E7C68E ;
+    color: black;
+    padding: 0.2rem 0.8rem;
+    display: inline;
+}
+.middiv{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 1rem 0;
+    justify-content: center;
+    margin: 1rem 0;
+    align-items: center;
+    display: grid;
+}
+.createListing{
+    color: #E7C68E;
+    margin-bottom: 5rem !important;
+}
+.Input{
+    width: 100%;
+    padding: 0.4rem;
+    background-color: transparent;
+    border: 1px solid #E7C68E;
+    border-radius: 3px;
+    color: #E7C68E;
+}
+
+.textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #E7C68E;
+    color: #E7C68E ;
+    height: 7rem;
+}
+.select{
+    border: 1px solid;
+    width: 19rem;
+    margin: auto;
+}
+.endText{
+    text-decoration: underline;
+}
+.continuebutton{
+    float: right;
+    padding: 0.7rem 2.7rem;
+    color: black;
+    font-weight: bold;
+    background-color: #9D7A54;
+    border: transparent;
+}
+.continuebutton:hover{
+    cursor: pointer;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .select{
+        border: 1px solid;
+        width: 17rem;
+        margin: auto;
+    }
+    .Input{
+        width: 97%;
+    }
+    .grid{
+        margin-top: -2rem !important;
+    }
+}

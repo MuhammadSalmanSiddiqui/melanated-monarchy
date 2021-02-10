@@ -1,0 +1,19 @@
+.ad{
+    width: 100%;
+}
+.ad:hover{
+    cursor: pointer;
+}
+.seemore{
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.seemore:hover{
+    cursor: pointer;
+    color: white;
+}
+.card{
+   border-top: 2px solid #30251a;
+   padding: 2rem 0;
+}
